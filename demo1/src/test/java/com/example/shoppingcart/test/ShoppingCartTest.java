@@ -53,14 +53,6 @@ public class ShoppingCartTest {
         assertEquals(999.99, cart.getTotalPrice(), 0.01);
         System.out.println("Executed testAddProduct method.");
     }
-
-    @Test
-    public void testAddProduct3() {
-        cart.addProduct(product1);
-        assertEquals(1, cart.getProductCount());
-        assertEquals(999.99, cart.getTotalPrice(), 0.01);
-        System.out.println("Executed testAddProduct method.");
-    }
     
     @Test
     public void testRemoveProduct() {
